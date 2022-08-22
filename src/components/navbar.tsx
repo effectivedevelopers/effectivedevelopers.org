@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { NextComponentType } from "next";
+import LoginButton from "../components/login-btn";
 
 export const Navbar: NextComponentType = () => (
   <header className="container flex items-center justify-between px-4">
@@ -21,6 +22,9 @@ export const Navbar: NextComponentType = () => (
           <Link href="https://github.com/effectivedeveloeprs">
             <a className="hover:text-cyan-600">GitHub</a>
           </Link>
+        </li>
+        <li>
+          <LoginButton />
         </li>
       </ul>
     </nav>

@@ -12,7 +12,7 @@ const Home: NextPage = () => {
       <Head>
         <title>Effective Developers</title>
         <meta name="description" content="Effective Developers" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="https://placekitten.com/16/16" />
       </Head>
       <div className="container mx-auto max-w-screen-lg p-4">
         <Navbar />
