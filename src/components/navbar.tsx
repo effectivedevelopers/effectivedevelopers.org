@@ -9,20 +9,26 @@ export const Navbar: NextComponentType = () => (
       <ul className="flex items-center gap-4 font-bold transition-colors">
         <li>
           <Link href="/job-board">
-            <a className="hover:text-cyan-600">Job Board</a>
+            <a className="hover:text-cyan-600">
+              Job Boards
+            </a>
           </Link>
         </li>
         <li>
-          <Link href="/blog">
-            <a className="hover:text-cyan-600">Blog</a>
+          <Link href="/job-board">
+            <a className="hover:text-cyan-600">
+              Help me hire
+            </a>
           </Link>
         </li>
         <li>
-          {/* TODO: Add github logo */}
-          <Link href="https://github.com/effectivedeveloeprs">
-            <a className="hover:text-cyan-600">GitHub</a>
+          <Link href="/job-board">
+            <a className="hover:text-cyan-600">
+              Help me hire
+            </a>
           </Link>
         </li>
+
         <li>
           <LoginButton />
         </li>
