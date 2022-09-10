@@ -1,3 +1,19 @@
+# Run
+## Dev
+Install packages:
+```
+yarn install
+```
+
+Get a .env file from someone
+```
+???
+```
+
+Run dev server (with hot reload) :
+```
+yarn dev
+```
 # Create T3 App
 
 This is an app bootstrapped according to the [init.tips](https://init.tips) stack, also known as the T3-Stack.
